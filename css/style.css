@@ -1,0 +1,49 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/citipix_skyline.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.title p:first-child {
+  font-size: 3rem;
+  margin: 2rem 0rem 0rem 0rem;
+}
+.title p:nth-child(2) {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.dropdown {
+  margin-top: 10rem;
+}
+select {
+  width: 17rem;
+  height: 2.3rem;
+  font-size: 1.2rem;
+  text-align-last: center;
+  opacity: 0.8;
+}
